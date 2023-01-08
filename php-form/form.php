@@ -1,4 +1,7 @@
 <form action="submit.php" method="POST">
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br>
         <label>User:</label>
         <input type="text" name="user">
         <br>
