@@ -7,6 +7,6 @@
     <title>PHP Form</title>
 </head>
 <body>
-    <?php include('form.php')?>
+    <?php include('form.php') ?>
 </body>
 </html>
