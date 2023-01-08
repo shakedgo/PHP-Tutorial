@@ -10,12 +10,12 @@
     <?php include('form.php')?>
     <?php 
         if ($isset($_GET['submit'])) {
-            echo $_GET['user'];
-            echo $_GET['password'];
+            echo htmlspecialchars($_GET['user']);
+            echo htmlspecialchars($_GET['password']);
         }
         if ($isset($_POST['submit'])) {
-            echo $_POST['user'];
-            echo $_POST['password'];
+            echo htmlspecialchars($_POST['user']);
+            echo htmlspecialchars($_POST['password']);
         }
     ?>
 </body>
